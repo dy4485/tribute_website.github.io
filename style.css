@@ -1,0 +1,143 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+.tht{
+  padding-top: 50px;
+  padding-left: 25px;
+  font-size: 60px;
+  
+}
+ .container{
+  background-color: #EBA0F4;
+  min-height: 100vh;
+  /* border: 10px solid black; */
+ }
+ .content{
+  max-width: 900px;
+  margin: 0 auto;
+ }
+ /* img{
+  width: 900px;
+  height: 539px;
+ } */
+.missile img{
+  width: 894px;
+  height: 549px;
+}
+.icons_footer{
+  font-size: 2rem;
+}
+.missile{
+border: 3px solid black;
+}
+ .top_section{
+  background-color: black;
+  color: white;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
+ }
+ .image img{
+  width: 300px;
+  height: 320px;
+ }
+.image{
+  border: 3px solid white;
+  border-radius: 50% ;
+  overflow: hidden;
+}
+.top_section h2 {
+  font-size: 50px;
+  font-weight: bold;
+  padding-right: 20px;
+
+}
+.top_section h3{
+  font-size: 20px;
+  font-weight: bold;
+  text-align: end;
+  padding-right: 20px;
+
+}
+.about_section{
+  margin-top: 50px;
+  /* background-color: aqua; */
+
+}
+.about_section h1{
+    background-color: black;
+      color: white;
+  font-size: 60px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+  .about_section p{
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    text-align: justify;
+  }
+  .mid_section h4{
+      background-color: black;
+        color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    text-align: justify;
+  }
+  .mid_section p {
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  text-align: justify;
+  }
+  .mid1_section h4 {
+    background-color: black;
+    color: white;
+          margin-top: 30px;
+          margin-bottom: 30px;
+          font-size: 30px;
+          text-align: justify;
+        }
+    
+        .mid1_section p {
+          font-size: 20px;
+          line-height: 25px;
+          letter-spacing: 1px;
+          margin-bottom: 20px;
+          text-align: justify;
+        }
+
+.bio_section ul li{
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 1px;
+}
+.bio_section ul{
+  margin-left: 50px;
+}
+.bio_section ul li {
+  margin-top: 15px;
+}
+.bio_section h4{
+    background-color: black;
+      color: white;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+footer{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+footer p{
+  text-align: center;
+  background-color: black;
+  color: white;
+}
